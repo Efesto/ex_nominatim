@@ -149,8 +149,7 @@ defmodule ExNominatim do
   end
 
   defp app_name do
-    Mix.Project.config()
-    |> Keyword.get(:app)
+    :boccasana
   end
 
   defp config_key do
