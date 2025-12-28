@@ -216,7 +216,7 @@ defmodule ExNominatim.Client do
          headers: %{
            user_agent: user_agent()
          },
-         cache: true
+         cache: false
        )}
     else
       {:error, reason} -> {:error, reason}
